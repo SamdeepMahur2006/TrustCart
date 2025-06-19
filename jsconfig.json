@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",                // Project root
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"]               // ✅ Resolves '@/components/...' etc.
     }
   }
 }
+
+
+
